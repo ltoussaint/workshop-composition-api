@@ -1,0 +1,19 @@
+{
+  "files.eol": "\n",
+  "eslint.validate": ["vue", "javascript", "html", "js", "ts"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.nuxt/**": true,
+    "**/.output/**": true
+  },
+  "stylelint.enable": true,
+  "stylelint.validate": ["postcss", "css", "scss", "vue"],
+  "vue.inlayHints.optionsWrapper": false,
+  "vue.codeActions.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
