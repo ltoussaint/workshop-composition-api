@@ -5,7 +5,7 @@
     :key="user.id"
     :to="`/users/${user.id}`"
   >
-    <UAvatar class="mb-6" size="2xl" :src="user.avatar" :alt="fullname" />
+    <UAvatar class="mb-6" size="2xl" :src="user.avatar" />
     <div>Firstname : {{ user.firstname }}</div>
     <div>Lastname : {{ user.lastname }}</div>
     <div>Age : {{ user.age }}</div>
@@ -33,7 +33,4 @@ const users = [
     gender: 'female',
   },
 ]
-
-// Create a computed to build a fullname from firstname and lastname
-const fullname = 'fullname here'
 </script>

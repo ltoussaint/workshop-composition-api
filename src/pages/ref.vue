@@ -20,6 +20,7 @@
       <UKbd size="lg">displayCard</UKbd> to <UKbd size="lg">false</UKbd>.
     </p>
   </UCard>
+
   <UDivider class="mb-8" />
 
   <div>
